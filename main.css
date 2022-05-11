@@ -14,8 +14,11 @@ body {
 
 .header {
     background-color: #E7AC0E;
-    padding: 20px 40px 40px 40px;
+    padding: 20px 40px 20px 40px;
     font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .header a, h1 {
@@ -26,34 +29,26 @@ body {
 
 }
 
-.logo {
-    float: left;
-}
-
-nav {
-    float: right;
-}
-
 /*** Main Content ***/
 
-.main-container {
-    clear: both;
-    margin: 40px 0;
-    text-align: center;
-}
-
 .column-container {
-    display: inline-block;
+    clear: both;
+    display: flex;
+    margin-top: 40px;
+    flex-flow: row wrap;
+    justify-content: center;
+
+
 }
 
 .column {
+    align-items: center;
     background-color: #fff;
     border: 2px solid #E7AC0E;
     border-radius: 5px;
     padding: 25px;
     margin: 5px;
     width: 275px;
-    float: left;
     text-align: left;
 }
 
