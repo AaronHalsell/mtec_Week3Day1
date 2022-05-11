@@ -1,0 +1,80 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+}
+
+body {
+    background-color: #FFFEF2;
+}
+
+/*** Header ***/
+
+.header {
+    background-color: #E7AC0E;
+    padding: 20px 40px 40px 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header a, h1 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+/*** Main Content ***/
+
+.main-container {
+    clear: both;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.column-container {
+    display: inline-block;
+}
+
+.column {
+    background-color: #fff;
+    border: 2px solid #E7AC0E;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 5px;
+    width: 275px;
+    float: left;
+    text-align: left;
+}
+
+.column h3 {
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.column p {
+    margin: 20px;
+}
+
+.button {
+    margin: 10px 0;
+    padding: 15px 0 5px 0;
+}
+
+.button a {
+    background-color: #E7AC0E;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 104px;
+}
