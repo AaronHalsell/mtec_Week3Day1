@@ -32,7 +32,6 @@ body {
 /*** Main Content ***/
 
 .column-container {
-    clear: both;
     display: flex;
     margin-top: 40px;
     flex-flow: row wrap;
